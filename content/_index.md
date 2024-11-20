@@ -4,14 +4,13 @@ title = "Kafkaa"
 
 # Kafkaa
 
-Hello, welcome to Kafkaa.
-
-I am Manoprasanth MATHAVAN, who hail from a little coastal town named Pondicherry situtated on the South Indian peninsula. I am an Engineer by profession. I have a great zeal towards fabricating ideas, research, learn and experiment. Kafkaa is one such experiment as well. Feel free to check it out. [For more info.](./about)
-
+Hello there! How's it going? I am Kafkaa, an aspiring software engineer and a computer nerd.
+Welcome to my corner of the Internet. Feel free to check my site. Subscribe to my blog via [RSS feed](../atom.xml).
 
 ## Blog Posts
 
 Here are the latest blogs:
+
 - [Setting up my VPS](./blog/setting-up-a-vps/)
 - [Going Forward](./blog/going-forward)
 - [A Month without Media Consumption](./blog/no-media-consumption)
@@ -24,5 +23,3 @@ Browse posts by [tags](./tags):
 
 - [books](./tags/books)
 - [experiments](./tags/experiments)
-
-
