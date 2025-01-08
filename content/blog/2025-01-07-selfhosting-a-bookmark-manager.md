@@ -71,16 +71,16 @@ Once your container is running, you can access the Linkding UI at **http://local
 
 If you frequently use your mobile to save links, Linkding has you covered! Install the [HTTP Shortcuts](https://f-droid.org/packages/ch.rmy.android.http_shortcuts/) app from F-Droid. Here’s how to set it up:
 
-1. Open the app and go to the three-dot menu in the top-right corner.
-2. Select **Import/Export**, then choose **Import from URL**.
-3. Enter this URL:
+- Open the app and go to the three-dot menu in the top-right corner.
+- Select **Import/Export**, then choose **Import from URL**.
+- Enter this URL:
 
-   ```
-   https://raw.githubusercontent.com/sissbruecker/linkding/refs/heads/master/docs/src/assets/linkding_shortcut.json
-   ```
+  ```
+  https://raw.githubusercontent.com/sissbruecker/linkding/refs/heads/master/docs/src/assets/linkding_shortcut.json
+  ```
 
-4. After importing, go back to the main screen, open the three-dot menu again, and select **Variables**.
-5. Update the **linkding_instance** and **linkding_api_key** variables with your self-hosted instance details.
+- After importing, go back to the main screen, open the three-dot menu again, and select **Variables**.
+- Update the **linkding_instance** and **linkding_api_key** variables with your self-hosted instance details.
 
 Now, when you share a link from your browser, choose **HTTP Shortcuts**, select **Linkding**, and optionally add tags or save it as untagged.
 

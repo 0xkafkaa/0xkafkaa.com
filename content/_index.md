@@ -11,6 +11,7 @@ Welcome to my corner of the Internet. Feel free to check my site. Subscribe to m
 
 Here are the latest blogs:
 
+- [Selfhosting a Bookmark Manager](./blog/selfhosting-a-bookmark-manager)
 - [Setting up my VPS](./blog/setting-up-a-vps/)
 - [Going Forward](./blog/going-forward)
 - [A Month without Media Consumption](./blog/no-media-consumption)
