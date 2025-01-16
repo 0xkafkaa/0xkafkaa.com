@@ -1,0 +1,7 @@
+---
+- name: Copy tar to the server
+  copy:
+    src: site.tar.gz
+    dest: ~/
+    mode: "666"
+

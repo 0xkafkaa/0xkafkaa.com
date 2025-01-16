@@ -1,0 +1,12 @@
+---
+- name: Delete contents of /var/www/kafkaa.xyz
+  shell: |
+    rm -rf /var/www/kafkaa.xyz/*
+
+- name: Move site.tar.gz to /var/www/kafkaa.xyz
+  ansible.builtin.unarchive:
+    src: /home/mklno/site.tar.gz
+    dest: /var/www/kafkaa.xyz/
+    remote_src: yes
+    extra_opts:
+      - "--strip-components=1"

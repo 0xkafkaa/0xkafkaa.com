@@ -1,0 +1,14 @@
+---
+- name: Remove site.tar.gz and public directory locally
+  connection: local
+  ansible.builtin.file:
+    state: absent
+    path: "{{ item }}"
+  loop:
+    - /home/mklno/projects/kafkaa.xyz/public
+    - /home/mklno/projects/kafkaa.xyz/ansible-playbook/site.tar.gz
+
+- name: Delete site.tar.gz in remote
+  ansible.builtin.file:
+    state: absent
+    path: ~/site.tar.gz

@@ -1,0 +1,4 @@
+---
+- name: Compress the build dir
+  connection: local
+  shell: "cd .. && tar -czf site.tar.gz public && mv site.tar.gz ansible-playbook/"

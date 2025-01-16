@@ -1,0 +1,4 @@
+---
+- name: Zola build
+  connection: local
+  shell: "cd .. && zola build"

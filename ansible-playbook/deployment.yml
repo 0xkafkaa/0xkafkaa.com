@@ -1,0 +1,10 @@
+---
+- name: Deployment to Bukowski
+  hosts: all
+  remote_user: mklno
+  roles:
+    - zola-build
+    - compress-public-dir
+    - copy-to-server
+    - move-tar-to-site
+    - cleanup-local
