@@ -11,6 +11,7 @@ Welcome to my corner of the Internet. Feel free to check my site. Subscribe to m
 
 Here are the latest blogs:
 
+- [Building Suttakural - A fun little project](./blog/building-suttakural/)
 - [Exploring Microcontrollers](./blog/exploring-microcontrollers/)
 - [Selfhosting a Bookmark Manager](./blog/selfhosting-a-bookmark-manager)
 - [Setting up my VPS](./blog/setting-up-a-vps/)
