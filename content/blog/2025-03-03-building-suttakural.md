@@ -9,7 +9,7 @@ toc = false
 +++
 
 <div class="center">
-<img src="/img/blogs/suttakural.png" alt="Book of Yannai Doctor">
+<img src="/img/blogs/suttakural.png" alt="suttakural web UI">
 </div>
 
 What happens when you mix ancient wisdom with modern sarcasm?
@@ -42,7 +42,7 @@ Then spun up a fastapi backend which sends a query to the vector DB and does a s
 Now, everything works the way I wanted it to be. Not its ready to be deployed and I was in a notion that is should be pretty easy. But here is where I spent so much time troubleshooting.
 
 <div class="center">
-<img src="/img/blogs/sk-arch.png" alt="Book of Yannai Doctor">
+<img src="/img/blogs/sk-arch.png" alt="suttakural arch">
 </div>
 
 So, I ususally deploy by projects in my server as I have mentioned in the earlier blogs. But one problem was the Docker image of the backend was pretty huge and I know it should not be this case. Since I was using an ML model for generating text embeddings, it downloads a bunch of dependencies which I don't need to begin with and I haven't worked on ML models, so I had no clue whether this was normal. After a night of scouring the internet I understood how to make use of only the dependencies I need and finally reduced the size of the image. And now the backend is up and running.
