@@ -2,7 +2,7 @@
 title = "Projects"
 +++
 
-[![wakatime](https://wakatime.com/badge/user/018d6f40-2c09-4c21-a2e7-e2a178769c4c.svg)](https://wakatime.com/@018d6f40-2c09-4c21-a2e7-e2a178769c4c)
+<!-- [![wakatime](https://wakatime.com/badge/user/018d6f40-2c09-4c21-a2e7-e2a178769c4c.svg)](https://wakatime.com/@018d6f40-2c09-4c21-a2e7-e2a178769c4c) -->
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <iframe frameBorder="0" height="150px" width="640px" src="https://git-graph.vercel.app/embed/0xkafkaa?showColorLegend=true&showWeekdayLabels=true&showMonthLabels=true&showTotalCount=true&blockMargin=2&blockRadius=0&blockSize=9&fontSize=14&weekStart=4&year=2025" class="iframe"></iframe>
@@ -40,8 +40,14 @@ Developed a Todo application API using Node.js, Express.js, and PostgreSQL with 
 
 - [View Code](https://github.com/0xkafkaa/todolist-api)
 
-## Expense Tracker.
+## Expense Tracker
 
 Developed an expense tracker API using Node.js, Express.js, and PostgreSQL with Drizzle ORM, allowing users to manage their expenses efficiently. Implemented JWT-based authentication for secure user sessions and provided RESTful endpoints for adding, updating, deleting, and retrieving expenses with advanced filtering options.
 
 - [View Code](https://github.com/0xkafkaa/expense-tracker-api)
+
+## Suttakural
+
+A web app that roasts you using Thirukkural, blending Thiruvalluvar’s wisdom with AI-generated burns.
+
+- [View Code](https://github.com/0xkafkaa/suttakural-fe)
