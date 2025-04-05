@@ -3,7 +3,7 @@ compile_sass = false
 minify_html = true
 generate_feeds = true
 default_language = "en"
-author = 'Manoprasanth MATHAVAN'
+author = '0xkafkaa'
 taxonomies = [
     {name = "tags", feed = false},
 ]
@@ -29,7 +29,7 @@ anchors = "on"
 internal_level = "warn"
 
 [extra]
-author = "Manoprasanth MATHAVAN"
+author = "0xkafkaa"
 display_author = true
 
 favicon = "favicon.ico"

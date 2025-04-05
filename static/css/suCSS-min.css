@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 ol,
 ul {
   margin-top: 0.25rem;
@@ -40,7 +41,7 @@ table {
     "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
     "Helvetica Neue", sans-serif;
   --default-font: "Atkinson Hyperlegible", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --mono-font: "Roboto Mono", monospace
   --standard-border-radius: 5px;
   --bg: #eeeeee;
   --bg-light: #cbcdcd;
@@ -68,7 +69,7 @@ table {
   }
   img,
   video {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 @media (prefers-color-scheme: light) {
@@ -128,7 +129,7 @@ table {
   background: var(--bg-light);
 }
 * {
-  scrollbar-color: var(--accent) var(--bg-light);
+  /* scrollbar-color: var(--accent) var(--bg-light); */
   scrollbar-width: thin;
   scrollbar-height: thin;
 }
@@ -439,8 +440,8 @@ img,
 video {
   height: auto;
   padding: 0.125rem;
-  border: dashed 2px var(--accent);
-  border-radius: 15px;
+
+  border-radius: 5px;
 }
 figure {
   margin: 0;
@@ -466,24 +467,23 @@ samp {
   font-family: var(--mono-font);
 }
 pre {
-  border: 1px solid var(--accent);
-  max-height: 30rem;
+  /* border: 1px solid var(--accent); */
+  max-height: 100rem;
   padding: 0.625rem;
   overflow: auto;
-  font-style: monospace;
+  /* font-style: monospace; */
   white-space: pre-wrap;
+  scrollbar-width: none;  
 }
 div code,
 li code,
 p code {
   padding: 0 0.125rem;
-  border-radius: 3px;
   color: var(--bg);
   background-color: var(--text);
 }
 pre code {
   padding: 0;
-  border-radius: 0;
   color: inherit;
   background-color: inherit;
 }
