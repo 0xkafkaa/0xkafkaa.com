@@ -54,7 +54,7 @@ title = "Kafkaa"
 ## Blog Posts
 
 Here are the latest blogs:
-- [On Keeping a Notebook](.k/blog/on-keeping-a-notebook/)
+- [On Keeping a Notebook](/blog/on-keeping-a-notebook/)
 - [Building Suttakural - A fun little project](./blog/building-suttakural/)
 - [Exploring Microcontrollers](./blog/exploring-microcontrollers/)
 - [Selfhosting a Bookmark Manager](./blog/selfhosting-a-bookmark-manager)
