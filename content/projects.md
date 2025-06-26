@@ -51,3 +51,15 @@ Developed an expense tracker API using Node.js, Express.js, and PostgreSQL with 
 A web app that roasts you using Thirukkural, blending Thiruvalluvar’s wisdom with AI-generated burns.
 
 - [View Code](https://github.com/0xkafkaa/suttakural-fe)
+
+## Tweet GPT 
+
+A bot for responding to tweets based on various tones, since I am not great at tweeting.
+
+- [View Code](https://github.com/0xkafkaa/tweetBot)
+
+## Voice Agent for Terminal 
+
+An intelligent voice-controlled terminal assistant that can execute commands using natural language. Built with Deepgram for speech recognition and text-to-speech, and DeepSeek AI for natural language processing.
+
+- [View Code](https://github.com/0xkafkaa/voiceAgentForTerminal)
