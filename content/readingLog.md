@@ -5,8 +5,7 @@ Its been a few years since I started reading, the following entries are a list o
 
 ### Currently Reading
 
-- _A Preface to Man_ by Subhash Chandran
-- _Get Better at Anything_ Scott H. Young
+In a reading slump, need to pick something soon.
 
 ### 2024
 
