@@ -45,5 +45,5 @@ header_nav = [
   { url = "/readinglog", name_en = "Books", name_fr = "/livres" },
 #  { url = "/quotes", name_en = "/quotes", name_fr = "/notes" },
   { url = "/projects", name_en = "Projects", name_fr = "/concernant" },
-  { url = "/socials", name_en = "Socials", name_fr = "/contactez" }
+#  { url = "/socials", name_en = "Socials", name_fr = "/contactez" }
 ]

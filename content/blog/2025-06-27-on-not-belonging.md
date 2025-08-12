@@ -12,7 +12,7 @@ toc = false
 </div>
 Its been two years on this perky little place on the internet. 
 
-When I started this site, I honestly had no clue about where it would lead me to. But I always felt like I never belonged anywhere. I never really liked the traditional social media or the *enshitificatin* of those platforms in general. Trying to be visible admist a plethora of voices never made sense to be anyway. That might be one of the key reasons for building this perky litte digital nest.
+When I started this site, I honestly had no clue about where it would lead me to. But I always felt like I never belonged anywhere. I never really liked the traditional social media or the *enshitification* of those platforms in general. Trying to be visible admist a plethora of voices never made sense to be anyway. That might be one of the key reasons for building this perky litte digital nest.
 
 I never really cared whether people read my writing and I still don't. But the innate need for validation as a social being, stemming from our human nature brought about by the evolutionary advantage of belonging to a group could be one of the reasons I still might want people to read it. I know I'm contradicting myself, but I don't really care. Maybe it's just a paradox of expression. It's your choice to read on, or not. With the diminishing attention span day after day, I doubt anyone's reading this anyway.
 

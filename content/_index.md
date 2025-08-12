@@ -53,7 +53,7 @@ title = "Kafkaa"
 
 ## Blog Posts
 
-Here are the latest blogs:
+Here are the latest blogs. Browse them by [tags](./tags)
 - [On Not Belonging](/blog/on-not-belonging)
 - [On Keeping a Notebook](/blog/on-keeping-a-notebook/)
 - [Building Suttakural - A fun little project](./blog/building-suttakural/)
@@ -65,9 +65,8 @@ Here are the latest blogs:
 - [Killing Commendatore by Murakami](./blog/killing-commendatore)
 - [Tale of an Elephant doctor](./blog/yaanai-doctor)
 
-## Tags
+## Socials
 
-Browse posts by [tags](./tags):
-
-- [books](./tags/books)
-- [experiments](./tags/experiments)
+- Discord: 0xkafkaa
+- Github: [0xkafkaa](https://github.com/0xkafkaa/)
+- BlueSky: [0xkafkaa](https://bsky.app/profile/kafkaa.xyz)
