@@ -201,7 +201,7 @@ a:visited {
   text-decoration: none;
   border-radius: 0.125rem;
   color: var(--link);
-  text-decoration: underline lab(100% 0.01 -0.01);
+  text-decoration: underline;
   text-underline-offset: 4px;
   color: lab(100% 0.01 -0.01);
   

@@ -6,7 +6,12 @@ Its been a few years since I started reading, the following entries are a list o
 
 ### Currently Reading
 
-In a reading slump, need to pick something soon.
+- _Stoner_ by Elliot Williams
+- _Tampa_ by Alissa Nutting
+### 2025
+
+- _The End Of Loneliness_ by Benedict Wells
+- _Fly on the Wall_ by E Lockhart
 
 ### 2024
 
