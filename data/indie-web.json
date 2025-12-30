@@ -1,0 +1,287 @@
+{
+  "count": 14,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 131,
+      "url": "https://williamjansson.com/",
+      "title": "William Jansson",
+      "description": "Exploring minimalism, wellness and open source software.",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-12-30T08:57:59.454874Z",
+      "date_modified": "2025-12-30T18:12:55.955942Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 129,
+      "url": "https://www.iamtk.co/",
+      "title": "TK's website about software engineering, web development, and career in tech",
+      "description": "Learning & Improving with TK: a website about software engineering, web development, and career in tech",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-12-18T15:41:17.796868Z",
+      "date_modified": "2025-12-30T18:13:29.179013Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 117,
+      "url": "https://michaelneuper.com/",
+      "title": "Michael",
+      "description": "Michael's Personal Website",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-08-16T10:05:14.528555Z",
+      "date_modified": "2025-12-30T18:06:58.252433Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 116,
+      "url": "https://lambdaland.org/",
+      "title": "Ashton Wiersdorf | Lambda Land",
+      "description": "Ashton Wiersdorf\n\n\nI am a PhD student at the University of Utah where I started in August 2022. My advisor is Ben Greenman. I graduated with my bachelor’s degree in computer science from Brigham Young University in April 2022.\n\n  \n\nI am interested in researching and designing better programming languages. Programming languages are our interface to computation, and different programming languages shape how we think about solving problems with computation. My current work focuses on macro and type systems: how can we extend languages with macros, and how can we get better guarantees about the behavior of our programs with types? I have also worked a little with static analysis of functional programming languages.",
+      "notes": "",
+      "web_archive_snapshot_url": "https://web.archive.org/web/20250812093756/https://lambdaland.org/",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-08-12T09:36:59.099531Z",
+      "date_modified": "2025-12-30T18:07:36.504146Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 115,
+      "url": "https://karthinks.com/",
+      "title": "Karthinks",
+      "description": "Where I collect notes. Sometimes you have to write to be able to think.",
+      "notes": "",
+      "web_archive_snapshot_url": "https://web.archive.org/web/20250811152418/https://karthinks.com/",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-08-11T15:22:58.287624Z",
+      "date_modified": "2025-12-30T18:07:51.438547Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 114,
+      "url": "https://maplet.bearblog.dev/",
+      "title": "",
+      "description": "",
+      "notes": "",
+      "web_archive_snapshot_url": "https://web.archive.org/web/20250809070722/https://maplet.bearblog.dev/my-emacs-org-mode-config-as-a-student/",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-08-09T07:05:08.207367Z",
+      "date_modified": "2025-12-30T18:14:10.514648Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 113,
+      "url": "https://www.conormclaughlin.net/",
+      "title": "",
+      "description": "",
+      "notes": "",
+      "web_archive_snapshot_url": "https://web.archive.org/web/20230314174323/https://conormclaughlin.net/2023/01/visualizing-a-year-of-pihole-requests-2022/",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": true,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-08-07T16:20:36.833871Z",
+      "date_modified": "2025-12-30T18:14:42.100428Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 96,
+      "url": "https://samiuljoy.github.io/index.html",
+      "title": "A Website by Samiul Ahmed Joy",
+      "description": "A demo page on ssg and also random blog posts",
+      "notes": "",
+      "web_archive_snapshot_url": "https://web.archive.org/web/20201211105501/https://samiuljoy.github.io/index.html",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-06-18T11:15:16.758192Z",
+      "date_modified": "2025-12-30T18:09:38.349467Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 90,
+      "url": "https://kyswtn.com/",
+      "title": "Kyaw",
+      "description": "Software Engineer",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-03-27T10:52:00.819516Z",
+      "date_modified": "2025-12-30T18:09:54.406254Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 73,
+      "url": "https://collection.mataroa.blog/",
+      "title": "Mataroa Collection",
+      "description": "",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-02-11T01:34:24.585926Z",
+      "date_modified": "2025-12-30T18:10:42.779386Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 28,
+      "url": "https://tarneo.fr/",
+      "title": "Tarneo's blog",
+      "description": "Programming, Linux, self-hosting, ergo keyboards, IT ethics...",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-01-07T13:59:53.004593Z",
+      "date_modified": "2025-12-30T18:10:52.084125Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 22,
+      "url": "http://biglist.terraaeon.com/",
+      "title": "The Big List of Personal Websites",
+      "description": "This is a big list of links to personal websites.",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-01-03T13:01:40.869925Z",
+      "date_modified": "2025-12-30T18:11:06.931507Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 16,
+      "url": "https://blog.jethro.dev/",
+      "title": "Jethro Kuan",
+      "description": "",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2024-12-17T17:14:36.296420Z",
+      "date_modified": "2025-12-30T18:11:24.184477Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 6,
+      "url": "https://hianime.to/watch/one-piece-100?ep=2454&ep=2454",
+      "title": "Watch One Piece English Sub/Dub online Free on HiAnime.to",
+      "description": "Best site to watch One Piece English Sub/Dub online Free and download One Piece English Sub/Dub anime.",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "anime"
+      ],
+      "date_added": "2024-12-14T08:14:05.895926Z",
+      "date_modified": "2025-12-30T18:41:24.618760Z",
+      "website_title": null,
+      "website_description": null
+    }
+  ]
+}

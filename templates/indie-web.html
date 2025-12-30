@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set data = load_data(path="data/indie-web.json") %}
+{% set sites = data.results %}
+
+<h1>{{ page.title }}</h1>
+<p>{{ page.description }}</p>
+
+<ul class="indie-web-list">
+  {% for site in sites %}
+  {% if "indieWebsites" in site.tag_names %}
+    <li class="indie-web-item">
+    <span>
+        {{ site.date_added | date(format="%Y-%m-%d") }}
+    </span>
+
+      <a href="{{ site.url }}" target="_blank" rel="noopener">
+        {{ site.url }}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endblock %}

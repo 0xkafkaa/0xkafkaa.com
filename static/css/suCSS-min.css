@@ -218,15 +218,14 @@ ol {
 li {
   margin-bottom: 0.125rem;
 }
-/* ul li::marker {
-  content: "» ";
-  color: var(--accent);
+ul li::marker {
+  content: "-  ";
 }
-ul li:hover::marker {
+/* ul li:hover::marker {
   content: "# ";
   font-weight: 700;
   color: lab(100% 0.01 -0.01);
-} */
+}  */
 ol li::marker {
   color: var(--accent);
 }

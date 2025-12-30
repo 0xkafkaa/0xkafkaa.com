@@ -1,5 +1,5 @@
 +++
-title = "Kafkaa"
+title = "0xkafkaa - Digital Garden"
 template = "home.html"
 +++
 
