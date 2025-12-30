@@ -1,5 +1,6 @@
 +++
-title = "Reading Log"
+title = "Bookshelf"
+description = "Digital Bookshelf - List of books I have read"
 +++
 Its been a few years since I started reading, the following entries are a list of books that I have managed to make it to the end. Most of my books couldn't make it up to the list since they are at the halfway mark waiting to be read in by shelf. 
 

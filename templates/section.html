@@ -20,8 +20,13 @@
 
 <ul class="title-list">
 {% for page in pages %}
-  <li>
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+  <li class="item-style">
+    <div class="date-time-style">
+      {{page.date}}
+    </div>
+    <div>
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </div>
   </li>
 {% endfor %}
 </ul>

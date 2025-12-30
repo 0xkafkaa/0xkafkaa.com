@@ -56,16 +56,16 @@ table {
 @media (prefers-color-scheme: dark) {
   ::backdrop,
   :root {
-    color-scheme: dark;
-    --bg: lab(8% 0 0);
-    --bg-light: #464949;
-    --text: #d6d6d6;
-    --text-light: #dbd5bc;
-    --accent: lab(56% 0 -47);
-    --accent-light: #87c9e5;
-    --accent-text: var(--bg);
-    --border: #dbd5bc;
-    --link: #e2aea2;
+  color-scheme: dark;
+  --bg: lab(0% 0 0);
+  --bg-light: #000000;
+  --text: #ffffff;
+  --text-light: #ffffff;
+  --accent: lab(100% 0.01 -0.01);
+  --accent-light: #ffffff;
+  --accent-text: var(--bg);
+  --border: #ffffff;
+  --link: #ffffff;
   }
   img,
   video {
@@ -75,41 +75,41 @@ table {
 @media (prefers-color-scheme: light) {
   ::backdrop,
   :root {
-    color-scheme: light;
-    --bg: #eeeeee;
-    --bg-light: #cbcdcd;
-    --text: #41474e;
-    --text-light: #646868;
-    --accent: #d26878;
-    --accent-light: #e08f67;
-    --accent-text: var(--bg);
-    --border: #646868;
-    --link: #5690af;
+  color-scheme: dark;
+  --bg: lab(0% 0 0);
+  --bg-light: #000000;
+  --text: #ffffff;
+  --text-light: #ffffff;
+  --accent: lab(100% 0.01 -0.01);
+  --accent-light: #ffffff;
+  --accent-text: var(--bg);
+  --border: #ffffff;
+  --link: #ffffff;
   }
 }
 [data-theme="light"] {
-  color-scheme: light;
-  --bg: #eeeeee;
-  --bg-light: #cbcdcd;
-  --text: lab(8% 0 0);
-  --text-light: #646868;
-  --accent: lab(56% 0 -47);
-  --accent-light: #e08f67;
+  color-scheme: dark;
+  --bg: lab(0% 0 0);
+  --bg-light: #000000;
+  --text: #ffffff;
+  --text-light: #ffffff;
+  --accent: lab(100% 0.01 -0.01);
+  --accent-light: #ffffff;
   --accent-text: var(--bg);
-  --border: #646868;
-  --link: #5690af;
+  --border: #ffffff;
+  --link: #ffffff;
 }
 [data-theme="dark"] {
   color-scheme: dark;
-  --bg: lab(8% 0 0);
-  --bg-light: #464949;
-  --text: #d6d6d6;
-  --text-light: #dbd5bc;
-  --accent: lab(56% 0 -47);
-  --accent-light: #87c9e5;
+  --bg: lab(0% 0 0);
+  --bg-light: #000000;
+  --text: #ffffff;
+  --text-light: #ffffff;
+  --accent: lab(100% 0.01 -0.01);
+  --accent-light: #ffffff;
   --accent-text: var(--bg);
-  --border: #dbd5bc;
-  --link: #e2aea2;
+  --border: #ffffff;
+  --link: #ffffff;
 }
 ::-moz-selection,
 ::selection {
@@ -184,7 +184,7 @@ h2,
 h3 {
   line-height: 1.1;
 }
-h1::before,
+/* h1::before,
 h2::before,
 h3::before,
 h4::before,
@@ -192,7 +192,7 @@ h5::before,
 h6::before {
   color: var(--accent);
   content: "# ";
-}
+} */
 p {
   margin: 1rem 0;
 }
@@ -201,8 +201,10 @@ a:visited {
   text-decoration: none;
   border-radius: 0.125rem;
   color: var(--link);
-  text-decoration: underline lab(25% 0 0);
-  color: lab(56% 0 -47);
+  text-decoration: underline lab(100% 0.01 -0.01);
+  text-underline-offset: 4px;
+  color: lab(100% 0.01 -0.01);
+  
 }
 a:hover {
   text-decoration: underline;
@@ -216,21 +218,21 @@ ol {
 li {
   margin-bottom: 0.125rem;
 }
-ul li::marker {
+/* ul li::marker {
   content: "» ";
   color: var(--accent);
 }
 ul li:hover::marker {
   content: "# ";
   font-weight: 700;
-  color: lab(56% 0 -47);
-}
+  color: lab(100% 0.01 -0.01);
+} */
 ol li::marker {
   color: var(--accent);
 }
 ol li:hover::marker {
   font-weight: 700;
-  color: lab(56% 0 -47);
+  color: lab(100% 0.01 -0.01);
 }
 header > nav ol,
 header > nav ul {
@@ -425,8 +427,9 @@ input[type="file"] {
   border: 0;
 }
 hr {
-  border: 1px dashed var(--accent);
-  margin: 0.5rem 0;
+  border: 1px solid var(--accent);
+  margin: 0.5rem auto;
+  width: 30%;
 }
 mark {
   padding: 0 0.25em;
