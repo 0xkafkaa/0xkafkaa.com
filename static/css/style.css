@@ -43,16 +43,37 @@
 }
 
 .title-list li {
-  margin-bottom: .375rem;
+  margin-bottom: .375rem;  
+}
+.title-list li::marker {
+  content: "";
 }
 .item-style {
   display: flex;
   align-items: flex-start;
 }
-.project-item-style {
+/* .project-item-style {
   display: flex;
   gap: 8px;
+  flex-direction: column;
+  gap: 4px;
+} */
+/* .project-item-style {
+  display: flex;
+  align-items: baseline;  
+  gap: 8px;
+} */
+
+.project-title {
+  white-space: nowrap;     /* prevents title from breaking */
+  /* font-weight: 600; */
 }
+
+.project-desc {
+  opacity: 0.75;
+  /* font-size: 0.9rem; */
+}
+
 .date-time-style {
   display: block;
   /* font-size: 14px; */

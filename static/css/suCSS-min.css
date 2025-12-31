@@ -58,7 +58,7 @@ table {
   :root {
   color-scheme: dark;
   --bg: lab(0% 0 0);
-  --bg-light: #000000;
+  --bg-light: #212529;
   --text: #ffffff;
   --text-light: #ffffff;
   --accent: lab(100% 0.01 -0.01);
