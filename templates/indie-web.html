@@ -11,13 +11,10 @@
   {% for site in sites %}
   {% if "indieWebsites" in site.tag_names %}
     <li class="indie-web-item">
-    <span>
-        {{ site.date_added | date(format="%Y-%m-%d") }}
-    </span>
-
       <a href="{{ site.url }}" target="_blank" rel="noopener">
-        {{ site.url }}
+        {{ site.title }}
       </a>
+      <span> - {{ site.description | truncate(length=100) }}</span>
     </li>
     {% endif %}
   {% endfor %}

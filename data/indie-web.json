@@ -1,8 +1,48 @@
 {
-  "count": 14,
+  "count": 15,
   "next": null,
   "previous": null,
   "results": [
+    {
+      "id": 133,
+      "url": "https://akashrajpurohit.com",
+      "title": "Akash Rajpurohit",
+      "description": "A software engineer & tech enthusiast based in Mumbai, India",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-12-31T03:40:39.902702Z",
+      "date_modified": "2025-12-31T03:56:33.230017Z",
+      "website_title": null,
+      "website_description": null
+    },
+    {
+      "id": 132,
+      "url": "https://dizzytech.de",
+      "title": "DizzyTech",
+      "description": "Self-hosting and anything tech related.",
+      "notes": "",
+      "web_archive_snapshot_url": "",
+      "favicon_url": null,
+      "preview_image_url": null,
+      "is_archived": false,
+      "unread": false,
+      "shared": true,
+      "tag_names": [
+        "indieWebsites"
+      ],
+      "date_added": "2025-12-31T03:40:14.419838Z",
+      "date_modified": "2025-12-31T03:56:03.024964Z",
+      "website_title": null,
+      "website_description": null
+    },
     {
       "id": 131,
       "url": "https://williamjansson.com/",
@@ -106,8 +146,8 @@
     {
       "id": 114,
       "url": "https://maplet.bearblog.dev/",
-      "title": "",
-      "description": "",
+      "title": "maplet",
+      "description": "Somewhere between mathematics, computer science, and daily life",
       "notes": "",
       "web_archive_snapshot_url": "https://web.archive.org/web/20250809070722/https://maplet.bearblog.dev/my-emacs-org-mode-config-as-a-student/",
       "favicon_url": null,
@@ -119,15 +159,15 @@
         "indieWebsites"
       ],
       "date_added": "2025-08-09T07:05:08.207367Z",
-      "date_modified": "2025-12-30T18:14:10.514648Z",
+      "date_modified": "2025-12-31T03:52:23.064333Z",
       "website_title": null,
       "website_description": null
     },
     {
       "id": 113,
       "url": "https://www.conormclaughlin.net/",
-      "title": "",
-      "description": "",
+      "title": "Conor McLaughlin",
+      "description": "A data-driven personal blog featuring takes on sports, technology, real estate, and politics",
       "notes": "",
       "web_archive_snapshot_url": "https://web.archive.org/web/20230314174323/https://conormclaughlin.net/2023/01/visualizing-a-year-of-pihole-requests-2022/",
       "favicon_url": null,
@@ -139,7 +179,7 @@
         "indieWebsites"
       ],
       "date_added": "2025-08-07T16:20:36.833871Z",
-      "date_modified": "2025-12-30T18:14:42.100428Z",
+      "date_modified": "2025-12-31T03:53:28.159465Z",
       "website_title": null,
       "website_description": null
     },
@@ -260,26 +300,6 @@
       ],
       "date_added": "2024-12-17T17:14:36.296420Z",
       "date_modified": "2025-12-30T18:11:24.184477Z",
-      "website_title": null,
-      "website_description": null
-    },
-    {
-      "id": 6,
-      "url": "https://hianime.to/watch/one-piece-100?ep=2454&ep=2454",
-      "title": "Watch One Piece English Sub/Dub online Free on HiAnime.to",
-      "description": "Best site to watch One Piece English Sub/Dub online Free and download One Piece English Sub/Dub anime.",
-      "notes": "",
-      "web_archive_snapshot_url": "",
-      "favicon_url": null,
-      "preview_image_url": null,
-      "is_archived": false,
-      "unread": false,
-      "shared": true,
-      "tag_names": [
-        "anime"
-      ],
-      "date_added": "2024-12-14T08:14:05.895926Z",
-      "date_modified": "2025-12-30T18:41:24.618760Z",
       "website_title": null,
       "website_description": null
     }
