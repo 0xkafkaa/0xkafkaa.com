@@ -9,12 +9,11 @@
 
 <ul class="indie-web-list">
   {% for site in sites %}
-  {% if "indieWebsites" in site.tag_names %}
+  {% if "coolArticles" in site.tag_names %}
     <li class="indie-web-item">
       <a href="{{ site.url }}" target="_blank" rel="noopener">
         {{ site.title }}
       </a>
-      <span> - {{ site.description | truncate(length=100) }}</span>
     </li>
     {% endif %}
   {% endfor %}

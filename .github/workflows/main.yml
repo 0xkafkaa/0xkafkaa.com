@@ -15,7 +15,7 @@ jobs:
         run: |
           mkdir -p data
           curl -sSL "https://bookmarkit.kafkaa.xyz/api/bookmarks/shared/?format=json" \
-            -o data/indie-web.json
+            -o data/data.json
 
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@master
