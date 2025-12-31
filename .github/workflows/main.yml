@@ -1,19 +1,25 @@
 # On every push this script is executed
 on: push
 name: Build and deploy GH Pages
+
 jobs:
   build:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v4
-      - name: build_and_deploy
+
+      - name: Fetch indie-web bookmarks
+        run: |
+          mkdir -p data
+          curl -sSL "https://bookmarkit.kafkaa.xyz/api/bookmarks/shared/?format=json" \
+            -o data/indie-web.json
+
+      - name: Build and deploy
         uses: shalzz/zola-deploy-action@master
         env:
-          # Target branch
           PAGES_BRANCH: pages
-          # Provide personal access token
           TOKEN: ${{ secrets.TOKEN }}
-          # Or if publishing to the same repo, use the automatic token
-          #TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
