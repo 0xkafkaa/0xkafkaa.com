@@ -58,8 +58,8 @@ default(value=true) %} {% if twitter_card != false %}
   type="image/x-icon"
   href="{{ get_url(path=config.extra.favicon, trailing_slash=false) }}"
 />
-{% endif %} {% endblock metatags %} {% if config.generate_feed %} {% block feed
-%} <link rel="alternate" type="application/atom+xml" title="RSS" href="{{
+{% endif %} {% endblock metatags %} {% if config.generate_feed %} 
+{% block feed %} <link rel="alternate" type="application/atom+xml" title="RSS" href="{{
 get_url(path="atom.xml", trailing_slash=false) }}"> {% endblock feed %} {% endif
 %} {% block css %}
 <link
