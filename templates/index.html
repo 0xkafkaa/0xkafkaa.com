@@ -1,0 +1,74 @@
+{% extends "base.html" %} {% block content %}
+<h1>0xkafkaa</h1>
+<p class="subtitle">By Manoprasanth MATHAVAN</p>
+<section>
+  <p>
+    Welcome to my little corner of the internet! I am a hobbist software
+    developer and a postgrad ML student based out of
+    <a href="https://en.wikipedia.org/wiki/Pondicherry">
+      Pondicherry<label
+        for="Pondicherry"
+        class="margin-toggle sidenote-number"
+      ></label
+      ><input type="checkbox" class="margin-toggle" id="Pondicherry" /><span
+        class="sidenote"
+        >Pondicherry is a little slice of France tucked away on India's
+        southeastern coast, where Tamil culture meets French charm.</span
+      ></a
+    >, currently studying in
+    <a href="https://en.wikipedia.org/wiki/Paris">Paris</a>.
+  </p>
+  <p>
+    For a brief period, I was working as a Software Engineer in India. Right
+    now, I am taking some time off to pursue my studies in Machine Learning at
+    École pour l'informatique et les techniques avancées in Paris.
+  </p>
+  <p>
+    I took up programming during the pandemic and eversince I have been going
+    down the rabbithole. These days I am studying Mathematics and Machine
+    Learning while trying to improve my French.
+  </p>
+  <!-- <p>
+    Self-knowledge is not part of your base install. You don’t spawn with it.
+    You gotta work your ass off to acquire it bit by bit, exercise by exercise,
+    experience by experience, just like developing expertise in any other
+    subject. It takes a massive volume of reps and there is no shortcut. All
+    there is is compression. Whether it’s self-knowledge, technical
+    skill-building, whatever, you can compress the time needed to acquire it if
+    you put in more volume and/or work more efficiently than is typical.
+  </p> -->
+  <p>
+    This website has gone multiple iterations over the years and is a constant
+    work in progress. This is my
+    <a href="https://fabric.so/learn/digital-garden"
+      >Digital Garden.
+      <label for="digial-garden" class="margin-toggle sidenote-number"></label>
+      <input type="checkbox" class="margin-toggle" id="digial-garden" />
+      <span class="sidenote"
+        >The term was popularised by Mike Caulfield in his 2015 keynote essay
+        The Garden and the Stream: A Technopastoral</span
+      >
+    </a>
+  </p>
+
+  <p>
+    I fell in love with the character Kafka from
+    <a href="https://en.wikipedia.org/wiki/Kafka_on_the_Shore"
+      >Kafka on the Shore</a
+    >
+    by Haruki Murakami and hence the pseudonym if you are curious.
+  </p>
+  <p>
+    You can contact me at <a href="mailto:me@0xkafkaa.com">me@0xkafkaa.com</a>
+  </p>
+  {% set writings = get_section(path="writings/_index.md") %}
+  <h2>Writings:</h2>
+  <ul>
+    {% for page in writings.pages %}
+    <li>
+      <a href="{{ page.permalink }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}

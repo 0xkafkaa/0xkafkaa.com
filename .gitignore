@@ -1,0 +1,17 @@
+# Zola build output and cache
+/public/
+/.zola-cache/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
