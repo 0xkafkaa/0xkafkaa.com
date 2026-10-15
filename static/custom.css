@@ -1,0 +1,14 @@
+.index-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 40px;
+}
+.index-nav a {
+  flex: 1;
+  min-width: 0;
+}
+.index-nav span {
+  flex-shrink: 0;
+  white-space: nowrap;
+}

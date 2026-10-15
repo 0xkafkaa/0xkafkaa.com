@@ -1,10 +1,10 @@
 {% extends "base.html" %} {% block content %}
-<h1>0xkafkaa</h1>
-<p class="subtitle">By Manoprasanth MATHAVAN</p>
+<!-- <h1>0xkafkaa</h1> -->
+<p class="subtitle">Kafkaa</p>
 <section>
   <p>
-    Welcome to my little corner of the internet! I am a hobbist software
-    developer and a postgrad ML student based out of
+    Welcome to my little corner of the internet! I am a hobbist programmer and a
+    postgrad ML student based out of
     <a href="https://en.wikipedia.org/wiki/Pondicherry">
       Pondicherry<label
         for="Pondicherry"
@@ -24,8 +24,8 @@
     École pour l'informatique et les techniques avancées in Paris.
   </p>
   <p>
-    I took up programming during the pandemic and eversince I have been going
-    down the rabbithole. These days I am studying Mathematics and Machine
+    I took up programming during the pandemic and ever since I have been going
+    down the rabbit hole. These days I am studying Mathematics and Machine
     Learning while trying to improve my French.
   </p>
   <!-- <p>
@@ -59,15 +59,17 @@
     by Haruki Murakami and hence the pseudonym if you are curious.
   </p>
   <p>
-    You can contact me at <a href="mailto:me@0xkafkaa.com">me@0xkafkaa.com</a>
+    You can contact me at
+    <a href="mailto:contact@0xkafkaa.com">contact@0xkafkaa.com</a>
   </p>
   {% set writings = get_section(path="writings/_index.md") %}
   <h2>Writings:</h2>
   <ul>
     {% for page in writings.pages %}
-    <li>
+    <l class="index-nav">
+      <span>{{ page.date }}</span>
       <a href="{{ page.permalink }}">{{ page.title }}</a>
-    </li>
+    </l>
     {% endfor %}
   </ul>
 </section>
