@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0xkafkaa</title>
+    <link rel="stylesheet" href="https://0xkafkaa.com/tufte.css" />
+    <link rel="stylesheet" href="https://0xkafkaa.com/custom.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://0xkafkaa.com/favicon.ico"
+    />
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+        svg: {
+          fontCache: "global",
+        },
+      };
+    </script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <article>
+<h2>Exploring Microcontrollers</h2>
+<section><p>I have always been curious about Microcontrollers and IOT in general ever since I got interested in the hacking culture. The beauty of the computation which happens in a cute litte component always makes me appreciate it further more.</p>
+<p><img src="/img/blogs/mc.jpg" alt="microcontroller" /></p>
+<p><a rel="external" href="https://github.com/UrbanCircles/igor">Project IGOR</a> by <a rel="external" href="https://www.youtube.com/@UrbanCircles">Urban Circles</a> felt like a great place to start. In a world full of distractions, build with overly engineered products for productivy finding something which does only one simple task could be challenging. This is what <a rel="external" href="https://github.com/UrbanCircles/igor">Project IGOR</a> tries to solve. I just love the philosophy on which its built on.</p>
+<blockquote>
+"Do one thing and do it well."
+- Doug McIlroy
+</blockquote>
+<p><a rel="external" href="https://github.com/UrbanCircles/igor">Project IGOR</a>, an open-source focus timer project using an ESP8266, an OLED display, and a rotary encoder. Igor is designed to provide an intuitive way to manage focus sessions. The rotary encoder is used to set the time, and the OLED display provides real-time feedback. The ESP8266 acts as the brain of the system, handling user inputs and updating the display.</p>
+<p>The firmware is written in Arduino using the Adafruit SSD1306 and Rotary Encoder libraries. The main logic involves:</p>
+<ul>
+<li>Reading the rotary encoder to adjust the timer.</li>
+<li>Displaying the timer on the OLED screen.</li>
+<li>Starting a countdown and updating the display.</li>
+<li>Triggering an alert or indication when the session ends.</li>
+</ul>
+<p>I messed up a few components during soldering them since I am all new to this but it was a fun little project. Implementing Igor was an exciting journey into embedded development, combining hardware interfacing, real-time input handling, and display manipulation.</p>
+</section>
+</article>
+    <footer class="footer-container">
+      <div><span>0xkafkaa© 2026</span></div>
+      <div class="footer-inner-container-two">
+        <div><a href="/">Home</a></div>
+        <div><a href="/writings">Writings</a></div>
+        <div><a href="/atom.xml">RSS</a></div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0xkafkaa</title>
+    <link rel="stylesheet" href="https://0xkafkaa.com/tufte.css" />
+    <link rel="stylesheet" href="https://0xkafkaa.com/custom.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://0xkafkaa.com/favicon.ico"
+    />
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+        svg: {
+          fontCache: "global",
+        },
+      };
+    </script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <article>
+<h2>Setting up my VPS</h2>
+<section><p>Finally after a year of tinkering with Linux I got myself a <a rel="external" href="https://en.wikipedia.org/wiki/Virtual_private_server">Virtual Private Server</a>. In this blog post, I would like to list the things I have done after getting a server.</p>
+<p><img src="/img/blogs/server.png" alt="neofetch output" /></p>
+<ul>
+<li><strong>Connect to VPS with SSH</strong> - The first step was to connect to the VPS securely using SSH to ensure encrypted communication.</li>
+<li><strong>Update package lists and Upgrade packages</strong> - As with any Linux distro, the first essential business is to make sure the packages are upto date.</li>
+<li><strong>Change root password</strong> - For added security, I updated the root password to something more complex immediately.</li>
+<li><strong>Create non-root user</strong> - As a best practise to avoid using the root user for day to day operations, I created a new user with sudo privileges.</li>
+<li><strong>Login with SSH Key</strong> - I setup SSH key based authentication ensuring the future logins doesn't require password for the new user.</li>
+<li><strong>Disable Password Login</strong> - Once the SSH key is in place, I disabled the password login to prevent unauthorized access</li>
+<li><strong>Disable root login</strong> - Disabling root login over SSH adds an extra layer of security, ensuring only non-root users can access the server.</li>
+<li><strong>Update Network and Firewall Policy</strong> - I configured the firewall to allow only necessary services (SSH, HTTP/HTTPS, etc.), using ufw</li>
+<li><strong>Closed unused ports</strong> - Closed the unused ports to minimize potential entry points for attackers.</li>
+<li><strong>Install essential tools</strong> - Installed a few essential tools like git and tmux to make woking on the server convenient.</li>
+</ul>
+<p>What's Running on the VPS?
+Currently, Kafkaa is running on my VPS, hosted with Caddy as the web server. Caddy makes HTTPS setup incredibly simple, handling certificates automatically. I’m excited about all the possibilities it opens up for self-hosting and further projects in the upcoming days.</p>
+</section>
+</article>
+    <footer class="footer-container">
+      <div><span>0xkafkaa© 2026</span></div>
+      <div class="footer-inner-container-two">
+        <div><a href="/">Home</a></div>
+        <div><a href="/writings">Writings</a></div>
+        <div><a href="/atom.xml">RSS</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
