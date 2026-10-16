@@ -7,6 +7,10 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+title = "Kafkaa by 0xkafkaa"
+# rss config
+generate_feeds = true
+author = "0xkafkaa"
 [markdown]
 
 [extra]
