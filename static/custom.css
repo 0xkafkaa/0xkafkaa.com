@@ -12,3 +12,16 @@
   flex-shrink: 0;
   white-space: nowrap;
 }
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 87.5%;
+  padding-bottom: 2.5rem;
+}
+.footer-inner-container-two {
+  display: flex;
+  gap: 40px;
+}
+.footer-inner-container-two div a {
+  text-decoration: none;
+}
